@@ -27,7 +27,7 @@
     "@types/bcryptjs": "^2.4.2",
     "@types/express": "^4.17.3",
     "@types/express-session": "^1.17.0",
-    "@types/passport": "^1.0.2",
+    "@types/passport": "^1.0.3",
     "@types/passport-local": "^1.0.33",
     "tsconfig-paths": "^3.8.0",
     "tslint": "^6.0.0"
