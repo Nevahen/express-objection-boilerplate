@@ -10,9 +10,10 @@
       "outDir": "dist",
       "baseUrl": "./src",
       "paths": {
-        "controllers/*": ["controllers/*"],
-        "routes/*": ["routes/*"],
-        "models/*": ["models/*"],
+        "controllers/*": [".src/controllers"],
+        "routes/*": [".src/routes"],
+        "models/*": [".src/models"],
+        "types/*": [".src/types"]
       }
   },
   "include": [
