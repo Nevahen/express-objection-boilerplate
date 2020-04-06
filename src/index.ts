@@ -1,3 +1,7 @@
+if (process.env.NODE_ENV === 'production') {
+  require('module-alias/register');
+}
+
 const environment = process.env.NODE_ENV || 'development';
 const configuration = require('../knexfile')[environment];
 

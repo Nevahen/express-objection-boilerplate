@@ -10,7 +10,11 @@ const app = express();
 app.set('port', process.env.PORT || 3000);
 
 // Global middlewares
-app.use(session({ secret: process.env.SESSION_SECRET }));
+app.use(session({
+  secret: process.env.SESSION_SECRET,
+  resave: true,
+  saveUninitialized: true,
+ }));
 app.use(bodyParser.json());
 app.use(passport.initialize());
 app.use(passport.session());

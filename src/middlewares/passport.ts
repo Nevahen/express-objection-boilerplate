@@ -1,4 +1,4 @@
-import { User } from 'models/User';
+import { User } from 'models';
 import passport from 'passport';
 import passportLocal from 'passport-local';
 
@@ -21,7 +21,7 @@ export const PPDeserializeUser = () => {
 
 export const localStrategy = new LocalStrategy(async (username, password, done) => {
 
-  const user = await User.query().findOne( {username });
+  const user = await User.query().findOne({ username });
 
   if(!user) {
     return done(null, false, { message: 'Authentication failed.' });
