@@ -28,7 +28,7 @@
     "objection": "^2.2.3",
     "passport": "^0.4.1",
     "passport-local": "^1.0.0",
-    "typescript": "^3.9.7"
+    "typescript": "^4.0.2"
   },
   "devDependencies": {
     "@types/bcryptjs": "^2.4.2",
