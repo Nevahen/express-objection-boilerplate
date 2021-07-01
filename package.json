@@ -24,7 +24,7 @@
     "knex": "^0.95.6",
     "module-alias": "^2.2.2",
     "mysql": "^2.18.1",
-    "nodemon": "^2.0.8",
+    "nodemon": "^2.0.9",
     "objection": "^2.2.14",
     "passport": "^0.4.1",
     "passport-local": "^1.0.0",
